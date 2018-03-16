@@ -1,0 +1,131 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+
+*, html, body {
+	font-family: "Montserrat";
+	font-size: 14px;
+}
+
+
+body {
+	background-image: url(img/0170643001451393081.JPG);
+	background-size: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+header {
+	background-color: #96b6ea;
+	width: 100%;
+	left: 0;
+}
+
+.likebotton {
+	margin: 10px;
+	padding: 5px 15px;
+	border: 1px;
+	color: #2739b2;
+	border-radius: 8px;
+	display: inline-block;
+	color: #000;
+	background: linear-gradient(to top, #74b0ed, #e1ecf7);
+}
+
+.likebotton:hover {
+	background: #2067d8;
+	color: #eff1f4;
+	border-radius: 30px; 
+	text-decoration: underline;
+	border: 3px;
+	border-color: red;
+}
+
+.likebotton:active {
+	background: white;
+	color: black;
+}
+
+.main{
+	width: 960px;
+	background-color: #B0C4DE;
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	margin: 0 auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.wrapp{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #fff;
+	border: 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.block {
+	margin: 20px;
+	height: 130px;
+	width: 270px;
+	border-style: solid;
+	background-image: url(img/images1.jpg);
+	box-sizing: border-box;
+	
+}
+
+.black{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	display: none;
+	transform: all .25s;
+	justify-content: center;
+	align-items: center;
+}
+
+.block:hover .black {
+	display: flex;
+}
+
+a.forimg{
+	display: block;
+	width: 30%;
+	padding: 7px;
+	background-color: #C0C0C0;
+	color: #000000;
+	font-size: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	box-shadow: 2px 5px 5px rgba(0,0,0,0.6);
+	text-align: center;
+}
+
+.block1 {
+	padding: 5px;
+	margin: 10px;
+	width: 450px;
+	border-style: solid;
+	background-color: #D3D3D3;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+img {
+	padding: 10px;
+	height: 150px;
+	width: 360px;
+}
+
